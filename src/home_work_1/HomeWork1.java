@@ -1,4 +1,4 @@
-package Home_Work_1;
+package home_work_1;
 
 import java.util.Scanner;
 
@@ -12,5 +12,6 @@ public class HomeWork1 {
 
         System.out.println(numbe1 | numbe2);          // 0001 1111
         System.out.println(numbe1 & numbe2);          // 0001 1100
+        // побитовые опереци не работают с дробными числами
     }
 }

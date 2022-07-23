@@ -1,11 +1,14 @@
-package Home_Work_1;
+package home_work_1;
 
 public class HomeWork7 {
     public static void main(String[] args) {
         createPhoneNumber();
     }
     public static void createPhoneNumber(){
-        int[] = new int[10];
+        for (int i = 0; i < 10; i++) {
+
+
+        }
 
 
     }

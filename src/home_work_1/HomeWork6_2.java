@@ -1,9 +1,8 @@
-package Home_Work_1;
-
+package home_work_1;
 import java.util.Objects;
 import java.util.Scanner;
 
-public class HomeWork6_1 {
+public class HomeWork6_2 {
     public static void main(String[] args) {
         String vasia = "Вася";
         String nastya = "Анастасия";
@@ -13,11 +12,9 @@ public class HomeWork6_1 {
         if (Objects.equals(vasia,name_in)){
             System.out.println("Привет!");
             System.out.println("Я тебя так долго ждал");
-        }
-        if (Objects.equals(nastya,name_in)){
+        } else if (Objects.equals(nastya,name_in)){
             System.out.println("Я тебя так долго ждал");
-        }
-        if ((!Objects.equals(nastya,name_in)) && (!Objects.equals(vasia,name_in))){
+        } else {
             System.out.println("Добрый день, а вы кто?");
         }
     }

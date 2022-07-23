@@ -1,12 +1,14 @@
-package Home_Work_1;
+package home_work_1;
 
 import java.util.Scanner;
 
 public class HomeWork5 {
     public static void main(String[] args) {
-    sleepIn();
+
+        sleepIn();
     }
-static boolean sleepIn (){
+
+public static boolean sleepIn(){
 
     Scanner in = new Scanner(System.in);
     System.out.println("Сегодня на работу? 0 - сегодня выходной; 1 - да на роботу; 2 - у меня отпуск");
